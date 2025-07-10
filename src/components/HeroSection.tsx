@@ -49,12 +49,12 @@ export const HeroSection = () => {
             Kyu peena jab saansle sakte hain?
           </p>
           <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
-            India ka{" "}
+            India ka pehla{" "}
             <span className="font-bold text-orange-500 animate-pulse">
-              pehla aur sabse bakwas
+              Protein Air Technology!
             </span>{" "}
-            Protein Air Technology! Bas saanslo aur muscles banao! No shakes, no
-            powders, no dimag ki zarurat!
+            Get your daily protein just by breathing! No shakes, no powders, no
+            dimag ki zarurat!
           </p>
         </div>
 
@@ -64,17 +64,17 @@ export const HeroSection = () => {
             <div className="text-3xl font-black text-gradient animate-bounce">
               420%
             </div>
-            <div className="text-sm text-gray-600">Bakwas Level</div>
+            <div className="text-sm text-gray-600">Pure Air Protein</div>
           </div>
           <div className="text-center transform hover:scale-125 transition-all hover:-rotate-12">
             <div className="text-3xl font-black text-gradient animate-pulse">
-              ∞
+              -100
             </div>
-            <div className="text-sm text-gray-600">Pagalpan</div>
+            <div className="text-sm text-gray-600">Calories</div>
           </div>
           <div className="text-center transform hover:scale-125 transition-all hover:rotate-6">
-            <div className="text-3xl font-black text-gradient">-100</div>
-            <div className="text-sm text-gray-600">Brain Cells</div>
+            <div className="text-3xl font-black text-gradient">∞</div>
+            <div className="text-sm text-gray-600">Convenience</div>
           </div>
         </div>
 
