@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Wind, Zap, Trophy, Skull, Flame, Sparkles } from "lucide-react";
 
@@ -37,28 +36,40 @@ export const HeroSection = () => {
         {/* Chaotic main heading */}
         <h1 className="text-6xl md:text-8xl font-black mb-8 animate-fade-in transform hover:scale-110 transition-all duration-500">
           <span className="text-gradient animate-pulse">PROTEIN</span>
-          <span className="block text-gradient-blue animate-bounce transform rotate-1">HAWA</span>
-          <span className="text-2xl md:text-3xl text-red-500 font-normal animate-spin">💨</span>
+          <span className="block text-gradient-blue animate-bounce transform rotate-1">
+            HAWA
+          </span>
+          <span className="text-2xl md:text-3xl text-red-500 font-normal animate-spin">
+            💨
+          </span>
         </h1>
-        
+
         <div className="mb-8 animate-fade-in animation-delay-300">
           <p className="text-2xl md:text-3xl font-bold text-gray-800 mb-4 transform hover:rotate-1 transition-all">
-            Kyu peena jab saansle sakte hain? Bilkul pagal idea hai! 💨🤪
+            Kyu peena jab saansle sakte hain?
           </p>
           <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
-            India ka <span className="font-bold text-orange-500 animate-pulse">pehla aur sabse bakwas</span> Protein Air Technology! 
-            Bas saanslo aur muscles banao! No shakes, no powders, no dimag ki zarurat!
+            India ka{" "}
+            <span className="font-bold text-orange-500 animate-pulse">
+              pehla aur sabse bakwas
+            </span>{" "}
+            Protein Air Technology! Bas saanslo aur muscles banao! No shakes, no
+            powders, no dimag ki zarurat!
           </p>
         </div>
 
         {/* Chaotic Stats */}
         <div className="flex flex-wrap justify-center gap-8 mb-12 animate-fade-in animation-delay-500">
           <div className="text-center transform hover:scale-125 transition-all hover:rotate-12">
-            <div className="text-3xl font-black text-gradient animate-bounce">420%</div>
+            <div className="text-3xl font-black text-gradient animate-bounce">
+              420%
+            </div>
             <div className="text-sm text-gray-600">Bakwas Level</div>
           </div>
           <div className="text-center transform hover:scale-125 transition-all hover:-rotate-12">
-            <div className="text-3xl font-black text-gradient animate-pulse">∞</div>
+            <div className="text-3xl font-black text-gradient animate-pulse">
+              ∞
+            </div>
             <div className="text-sm text-gray-600">Pagalpan</div>
           </div>
           <div className="text-center transform hover:scale-125 transition-all hover:rotate-6">
@@ -72,18 +83,23 @@ export const HeroSection = () => {
           <Button className="bg-gradient-to-r from-orange-500 to-pink-500 hover:from-orange-600 hover:to-pink-600 text-white px-8 py-4 text-lg font-bold rounded-full transform hover:scale-110 hover:rotate-3 transition-all shadow-lg animate-pulse">
             Start Breathing Gains Bro! 💪😤
           </Button>
-          <Button variant="outline" className="border-2 border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white px-8 py-4 text-lg font-bold rounded-full transform hover:scale-110 hover:-rotate-3 transition-all">
+          <Button
+            variant="outline"
+            className="border-2 border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white px-8 py-4 text-lg font-bold rounded-full transform hover:scale-110 hover:-rotate-3 transition-all"
+          >
             Demo Dekho (It's Just Hawa!) 🌪️🤡
           </Button>
         </div>
 
         {/* Extra Savage tagline */}
         <p className="mt-8 text-sm text-gray-500 italic animate-fade-in animation-delay-1000 transform hover:scale-105 transition-all">
-          "Bhai, gym jaane ki kya zarurat? Bas breathe kar aur Chad ban ja!" - Koi Genius, 2024
+          "Bhai, gym jaane ki kya zarurat? Bas breathe kar aur Chad ban ja!" -
+          Koi Genius, 2024
         </p>
-        
+
         <p className="mt-4 text-xs text-red-500 font-bold animate-bounce">
-          ⚠️ Side effects: Uncontrollable laughter, friends thinking you're pagal, becoming a meme ⚠️
+          ⚠️ Side effects: Uncontrollable laughter, friends thinking you're
+          pagal, becoming a meme ⚠️
         </p>
       </div>
     </section>
